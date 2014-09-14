@@ -1,7 +1,12 @@
 tray-icon-skeleton
 ==================
 
-This skeleton project of a simple self-executable jar displaying a simple tray icon menu
+This skeleton project of a simple self-executable jar displaying a simple tray icon menu  
+Key features:
+* auto-hide menu when clicking elsewhere on the screen (using an hidden dialogbox)
+* use system look&feel for better integration
+* about menu item with an URL redirection
+* exit menu item
 
 ## Customize the tray icon
 
