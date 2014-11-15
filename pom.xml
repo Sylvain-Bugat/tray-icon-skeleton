@@ -29,7 +29,7 @@
 		<!--<maven.artifactId.version>X.Y.Z</maven.artifactId.version>-->
 
 		<!-- Maven Lifecycle Plugins Version -->
-		<maven.pluginclean.version>2.6</maven.pluginclean.version>
+		<maven.pluginclean.version>2.6.1</maven.pluginclean.version>
 		<maven.plugininstall.version>2.5.2</maven.plugininstall.version>
 		<maven.pluginsite.version>3.4</maven.pluginsite.version>
 		<maven.plugincompiler.version>3.2</maven.plugincompiler.version>
