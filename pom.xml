@@ -20,10 +20,15 @@
 		<!-- Source Encoding -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-		<!-- JDK/JRE Version -->
+		<!-- Java version and compiler options-->
 		<!-- Java version can be upgraded to 1.6, 1.7, ... -->
 		<maven.compiler.source>1.5</maven.compiler.source>
 		<maven.compiler.target>1.5</maven.compiler.target>
+		<maven.compiler.fork>true</maven.compiler.fork>
+		<maven.compiler.compilerVersion>${maven.compiler.source}</maven.compiler.compilerVersion>
+		<maven.compiler.optimize>true</maven.compiler.optimize>
+		<maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
+		<maven.compiler.showWarnings>true</maven.compiler.showWarnings>
 
 		<!-- Dependencies version properties-->
 		<!--<maven.artifactId.version>X.Y.Z</maven.artifactId.version>-->
@@ -69,9 +74,6 @@
 						<artifactId>maven-compiler-plugin</artifactId>
 						<version>${maven.plugincompiler.version}</version>
 						<configuration>
-							<compilerVersion>${maven.compiler.source}</compilerVersion>
-							<source>${maven.compiler.source}</source>
-							<target>${maven.compiler.target}</target>
 							<compilerArgs>
 								<arg>-Xlint</arg>
 							</compilerArgs>
