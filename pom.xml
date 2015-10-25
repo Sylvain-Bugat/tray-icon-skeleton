@@ -4,7 +4,7 @@
 
 	<!-- Required Maven version can be upgraded to 3.* if needed by a dependency or a plugin -->
 	<prerequisites>
-		<maven>2.2.1</maven>
+		<maven>3.0</maven>
 	</prerequisites>
 
 	<modelVersion>4.0.0</modelVersion>
